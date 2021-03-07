@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Appium Test Suite" parallel="false">
+
+    <parameter name="OS" value="Android"/>
+    <parameter name="deviceName" value="Samsung Galaxy M01"/>
+    <parameter name="version" value="10"/>
+    <parameter name="appiumPort" value="4723"/>
+
+    <test name="ESPN app Launch Test">
+        <classes>
+            <class name="com.ESPN.ESPN_Launch"/>
+
+        </classes>
+    </test>
+
+</suite>
